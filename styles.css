@@ -1,0 +1,31 @@
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 30px;
+
+    background-color: aqua;
+    color: #000;;
+}
+
+.field{
+    margin-right: 10px;
+}
+
+.field:last-child{
+margin-right: 0;
+}
+
+.title{
+display: flex;
+justify-content: center;
+align-items: center;
+
+     font-weight: 700;
+    font-size: 30px;
+}
