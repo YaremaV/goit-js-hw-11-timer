@@ -52,9 +52,15 @@ class CountdownTimer {
 }
 }
 
-const timer = new CountdownTimer({
+ new CountdownTimer({
   selector: '#timer-1',
   targetDate: new Date('Jul 27, 2022'),
+});
+
+
+new CountdownTimer({
+  selector: '#timer-2',
+  targetDate: new Date('Oct 21, 2021'),
 });
 
 
